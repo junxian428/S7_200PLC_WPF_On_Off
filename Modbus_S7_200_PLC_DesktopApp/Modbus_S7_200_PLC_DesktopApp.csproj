@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Modbus.Net.Siemens" Version="1.3.10.2" />
+    <PackageReference Include="Modbus.Net.Siemens.Core" Version="1.3.10.2" />
+    <PackageReference Include="NModbus" Version="3.0.78" />
+    <PackageReference Include="NModbus.Serial" Version="3.0.78" />
+    <PackageReference Include="NModbus4" Version="2.1.0" />
+    <PackageReference Include="S7netplus" Version="0.16.0" />
+  </ItemGroup>
+
+</Project>
